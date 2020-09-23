@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(39, 85, 233);
+}
+
+main {
+    background-color: rgb(99, 125, 209);
+}
+@media screen {
+
+}
+
+
+#welcom-section {
+    height: 100vh;
+    text-align: center;
+
+}
+
+nav {
+    position: fixed;
+    top: 0;
+}

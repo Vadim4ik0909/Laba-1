@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(223, 226, 43);
+}
+
+main {
+    background-color: rgb(185, 209, 99);
+}
+@media screen {
+
+}
+
+#navbar {
+    position: fixed;
+}

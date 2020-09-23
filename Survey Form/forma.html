@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    
+    <main>
+        <h1 id="title">Опрос</h1>
+        <p id="description">Как ви изучаете програмируванння</p>
+
+        <form id="survey-form">
+            <div class="container"><label id="name-label" for="">name<input type="text" id="name" placeholder="имя" required></label></div>
+            <div class="container"><label id="email-label" for="">email<input type="email" id="email" placeholder="почта" required></label></div>
+            <div class="container"><label and id="number-label" for="">number<input id="number" type="number" min="8" max="130" placeholder="возраст" required></label></div>
+
+            <div class="container">
+                <p>Ваш социальний статус</p>
+                <select name="" id="dropdown">
+                    <option disabled selected value="">Статус</option>
+                    <option value="">школьник</option>
+                    <option value="">студент</option>
+                    <option value="">робота</option>
+                    <option value="">пенсионер</option>
+                </select>
+
+                <div class="container">
+                    <p>Обучение</p>
+                    <label for="">Офлайн<input name="type" value="Офлайн" type="radio"></label>
+                    <label for="">Онлайн<input name="type" value="Онлайн" type="radio"></label>
+                    <label for="">Офлайн и Онлайн<input name="Офлайн и Онлайн" value="type" type="radio"></label>
+                </div>
+                <div class="container">
+                    <p>Направление</p>
+                    <label for=""><input name="" value="" type="checkbox"></label>
+                    <label for=""><input name="" value="" type="checkbox"></label>
+                    <label for=""><input name="" value="" type="checkbox"></label>
+                </div>
+            </div>
+            <div class="container">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="container"><button id="submit"></button></div>
+
+        </form>
+    </main>
+
+
+
+</body>
+</html>
