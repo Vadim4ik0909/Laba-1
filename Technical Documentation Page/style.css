@@ -1,5 +1,6 @@
 body {
     background-color: rgb(223, 226, 43);
+    
 }
 
 main {
@@ -11,4 +12,11 @@ main {
 
 #navbar {
     position: fixed;
+    padding-left: 100px;
+    
+}
+
+.center {
+    padding-left: 50px;
+    padding-bottom: 10px;
 }

@@ -1,5 +1,6 @@
 body {
     background-color: rgb(39, 85, 233);
+    text-align: center;
 }
 
 main {
@@ -19,4 +20,10 @@ main {
 nav {
     position: fixed;
     top: 0;
+    
+}
+
+#navbar {
+    padding-left: 0px;
+    margin-left: 40px;
 }
