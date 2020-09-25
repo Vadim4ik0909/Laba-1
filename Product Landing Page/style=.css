@@ -1,15 +1,16 @@
 body {
-    background-color: chocolate;
+    background-color: rgb(201, 126, 73);
 
 }
 
 main {
     background-color: rgb(252, 206, 189);
+    border-radius: 25px;
 }
 
 nav {
     text-transform: uppercase;
-    float: right;
+    /* float: right; */
 
 }
 
@@ -26,4 +27,14 @@ nav li {
 
 iframe {
     display: flex;
+}
+header {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+p {
+    text-align: center;
 }

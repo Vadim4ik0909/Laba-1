@@ -3,8 +3,8 @@
 
 #main {
   /* variables */
-  --content-background: hsl(73, 60%, 71%);
-  --contrast-background: hsl(59, 47%, 57%);
+  --content-background: hsl(231, 59%, 71%);
+  --contrast-background: hsl(236, 47%, 57%);
   
   margin: 10px;
   background-color: var(--content-background, gray);

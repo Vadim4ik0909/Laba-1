@@ -5,6 +5,7 @@ body {
 
 main {
     background-color: rgb(185, 209, 99);
+    border-radius: 25px;
 }
 @media screen {
 

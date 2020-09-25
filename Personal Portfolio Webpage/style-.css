@@ -1,10 +1,12 @@
 body {
-    background-color: rgb(39, 85, 233);
+    background-color: rgb(36, 75, 206);
     text-align: center;
+    
 }
 
 main {
-    background-color: rgb(99, 125, 209);
+    background-color: rgb(68, 102, 213);
+    border-radius: 25px;
 }
 @media screen {
 
@@ -14,6 +16,7 @@ main {
 #welcom-section {
     height: 100vh;
     text-align: center;
+    
 
 }
 
